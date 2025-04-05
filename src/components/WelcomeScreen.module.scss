@@ -1,0 +1,35 @@
+@import '../styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $background-color;
+  text-align: center;
+  padding: $spacing-medium;
+}
+
+.title {
+  font-size: $font-size-title;
+  font-weight: $font-weight-bold;
+  margin-bottom: $spacing-medium;
+}
+
+.text {
+  margin-bottom: $spacing-large;
+}
+
+.button {
+  background-color: $color-primary;
+  color: white;
+  font-weight: bold;
+  padding: $spacing-small $spacing-medium;
+  border-radius: $border-radius;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+}

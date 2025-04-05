@@ -1,0 +1,8 @@
+@import './variables';
+
+// puedes agregar aquí estilos globales si deseas
+body {
+  font-family: sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
